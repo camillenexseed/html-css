@@ -59,6 +59,7 @@ textarea {
   background: #eee;
   padding: 30px;
 }
+
 .box p + p{
   margin-top: 15px;
 }
