@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>フォーム</title>
   <link rel="stylesheet" href="../reset.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <section class="container">
@@ -17,7 +18,7 @@
         <dt><label for="your-tel">電話番号</label></dt>
         <dd><input type="tel" placeholder="090-1234-5678" name="your-tel" id="your-tel"></dd>
         <dt><label for="your-mail">メールアドレス</label></dt>
-        <dd><input type="text" placeholder="yamada@nexseed.net" name="your-mail" id="your-mail" required></dd>
+        <dd><input type="email" placeholder="yamada@nexseed.net" name="your-mail" id="your-mail" required></dd>
         <dt>興味のあること</dt>
         <dd><label><input type="checkbox" value="メールマガジン" name="kind">メールマガジン</label><label><input type="checkbox" name="kind" value="セミナー">セミナー</label><label><input type="checkbox" name="kind" value="その他">その他</label></dd>
         <dt>あなたの年齢</dt>
@@ -40,9 +41,12 @@
         <dt><label for="message">メッセージ</label></dt>
         <dd><textarea name="message" id="message" placeholder="メッセージを200文字以内でお願いします"></textarea></dd>
       </dl>
-      <p>プライバシーポリシー方針に同意の上フォームを送信してください。</p>
-      <p><label><input type="checkbox" checked name="privacy" value="yes">プライバシーポリシーに同意する</label></p>
-      <p><input type="submit" value="送る"></p>
+      <div class="box text-center">
+          <p>プライバシーポリシー方針に同意の上フォームを送信してください。</p>
+          <p><label><input type="checkbox" checked name="privacy" value="yes">プライバシーポリシーに同意する</label></p>
+      </div>
+      
+      <p class="submit text-center"><input type="submit" value="送信"></p>
     </form>
   </section>
 </body>
