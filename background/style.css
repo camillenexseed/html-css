@@ -38,13 +38,14 @@
   position: absolute;
   left: 50%;
   top: 200px;
-  transform: translateX(-30%);
+  transform: translateX(-10%);
   background: rgba(200, 255, 100, .4);
 }
+
 .alpha3 {
   position: absolute;
   left: 50%;
   top: 200px;
-  transform: translateX(-100%);
+  transform: translateX(-90%);
   background: rgba(0, 255, 225, .4);
 }
